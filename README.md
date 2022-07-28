@@ -37,26 +37,39 @@ K-Nearest Neighbor          	0.736109	0.688228	0.727273
 Tech Stack
 
 Python
+
 Pandas
+
 Matplotlib
+
 Seaborn
+
 Scikit-Learn
 
 
 Conclusion
 
 The model will predict 79 samples correct.
+
 The number of people who received the seasonal vaccine is lower than those who didn't receive the vaccine.
+
 Most of those who received the vaccine were male.
+
 Most of the health workers received the vaccine.
+
 The older people(65 Years and above) received the vaccine in high numbers compared to the young people.
+
 The number of those who received the vaccination through reccomendation by a doctor was also high.
+
 People with chronic medical conditions didnot receive the vaccine.
+
 People who felt that the seasonal vaccine was very effective received the vaccine.
+
 Factors like Education level, employment status and race rarely affected the vaccination rate.
 
 
 Reccommendation
 
 Vaccinate older people because they are willing.
+
 Educate people on the importance of vaccination(doctors'reccomendation helps).
