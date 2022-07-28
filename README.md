@@ -21,9 +21,9 @@ Model was trained using a split size of 75/25%.
 Logistic Regression model yielded a model accuracy of 79.1% in comparison to other binary classifier models.
 
                   	            Accuracy	Precision	Recall
-Logistic Regression             0.791373	0.740298	0.795068
+Logistic Regression                 0.791373	0.740298	0.795068
 
-Support Vector Machines     	0.787030	0.730918	0.792982
+Support Vector Machines             	0.787030	0.730918	0.792982
 
 Decision Trees              	0.696570	0.690815	0.666251
 
