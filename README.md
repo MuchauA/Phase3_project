@@ -20,16 +20,22 @@ Model was trained using a split size of 75/25%.
 
 Logistic Regression model yielded a model accuracy of 79.1% in comparison to other binary classifier models.
 
-                  	Accuracy	Precision	Recall
-Logistic Regression	0.791373	0.740298	0.795068
-Support Vector Machines	0.787030	0.730918	0.792982
-Decision Trees	0.696570	0.690815	0.666251
-Random Forest	0.783885	0.769082	0.765369
-Naive Bayes	0.697619	0.806274	0.637107
-K-Nearest Neighbor	0.736109	0.688228	0.727273
+                  	            Accuracy	Precision	Recall
+Logistic Regression             0.791373	0.740298	0.795068
+
+Support Vector Machines     	0.787030	0.730918	0.792982
+
+Decision Trees              	0.696570	0.690815	0.666251
+
+Random Forest               	0.783885	0.769082	0.765369
+
+Naive Bayes                 	0.697619	0.806274	0.637107
+
+K-Nearest Neighbor          	0.736109	0.688228	0.727273
 
 
 Tech Stack
+
 Python
 Pandas
 Matplotlib
@@ -38,6 +44,7 @@ Scikit-Learn
 
 
 Conclusion
+
 The model will predict 79 samples correct.
 The number of people who received the seasonal vaccine is lower than those who didn't receive the vaccine.
 Most of those who received the vaccine were male.
@@ -50,5 +57,6 @@ Factors like Education level, employment status and race rarely affected the vac
 
 
 Reccommendation
+
 Vaccinate older people because they are willing.
 Educate people on the importance of vaccination(doctors'reccomendation helps).
