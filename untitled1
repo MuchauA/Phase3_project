@@ -1,0 +1,43 @@
+VACCINATION TREND PREDICTOR
+
+what is mostly likely to influence vaccination rates in future?
+
+The aim of this project is to develop a model that will provide guidance to the National Vaccination Advisory committee in understanding how people’s backgrounds, opinions, and health behaviors are related to their personal vaccination patterns and to predict vaccination patterns.
+
+Data used : National 2009 H1N1 Flu Survey.
+
+Data Preparation
+1. Loading data
+2. Exploring Datasets.
+
+Exploratory Data Analysis
+Data was analyzed by exploring how different features were related to the target variable(seasonal vaccine)
+
+Modelling
+All non_numeric columns were dropped because the project is a binary classification problem and string variables could not be encoded as binary.
+Missing values were imputed using the k-Nearest Neighbor Imputation.
+Model was trained using a split size of 75/25%.
+
+Our best training model has an accuracy of 79.1% and A True Positive Rate of 79.5%.
+
+
+
+# **Conclusion**
+Our model has a great performance of 79%. This means that, in a 100 test samples, 79 of them will be classified correctly. The model will predict 79 samples correct.
+
+From the Data Exploratory Analysis we have the following findings:
+1. The number of people who received the seasonal vaccine is lower than those who didn't receive the vaccine.
+2. Most of those who received the vaccine were male.
+3. Most of the health workers received the vaccine.
+4. The older people(65 Years and above) received the vaccine in high numbers compared to the young people.
+5. The number of those who received the vaccination through reccomendation by a doctor was also high.
+6. People with chronic medical conditions didnot receive the vaccine.
+7. People who felt that the seasonal vaccine was very effective received the vaccine.
+8. Factors like Education level, employment status and race rarely affected the vaccination rate.
+
+# **Reccommendations**
+1. Vaccinate older people because they are willing.
+2. Educate people on the importance of vaccination(doctors'reccomendation helps).
+
+**Note:** There is a likelyhood that most people(79%) will receive the seasonal vaccine in future.VACCINATION TREND PREDICTOR
+
