@@ -1,4 +1,4 @@
-VACCINATION TREND PREDICTOR
+** VACCINATION TREND PREDICTOR**
 
 what is mostly likely to influence vaccination rates in future?
 
@@ -23,15 +23,15 @@ Logistic Regression model yielded a model accuracy of 79.1% in comparison to oth
                   	            Accuracy	Precision	Recall
 Logistic Regression                 0.791373	0.740298	0.795068
 
-Support Vector Machines             	0.787030	0.730918	0.792982
+Support Vector Machines           0.787030	0.730918	0.792982
 
-Decision Trees              	0.696570	0.690815	0.666251
+Decision Trees                	0.696570	0.690815	0.666251
 
-Random Forest               	0.783885	0.769082	0.765369
+Random Forest               	  0.783885	0.769082	0.765369
 
-Naive Bayes                 	0.697619	0.806274	0.637107
+Naive Bayes                 	  0.697619	0.806274	0.637107
 
-K-Nearest Neighbor          	0.736109	0.688228	0.727273
+K-Nearest Neighbor          	  0.736109	0.688228	0.727273
 
 
 Tech Stack
