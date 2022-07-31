@@ -1,4 +1,4 @@
-** VACCINATION TREND PREDICTOR**
+**VACCINATION TREND PREDICTOR
 
 what is mostly likely to influence vaccination rates in future?
 
@@ -6,14 +6,14 @@ The aim of this project is to develop a model that will provide guidance to the 
 
 Data used : National 2009 H1N1 Flu Survey.
 
-Data Preparation
+**Data Preparation
 1. Loading data
 2. Exploring Datasets.
 
-Exploratory Data Analysis
+**Exploratory Data Analysis
 Data was analyzed by exploring how different features were related to the target variable(seasonal vaccine)
 
-Modelling
+**Modelling
 All non_numeric columns were dropped because the project is a binary classification problem and string variables could not be encoded as binary.
 Missing values were imputed using the k-Nearest Neighbor Imputation.
 Model was trained using a split size of 75/25%.
@@ -34,7 +34,7 @@ Naive Bayes                 	  0.697619	0.806274	0.637107
 K-Nearest Neighbor          	  0.736109	0.688228	0.727273
 
 
-Tech Stack
+**Tech Stack
 
 Python
 
@@ -47,7 +47,7 @@ Seaborn
 Scikit-Learn
 
 
-Conclusion
+**Conclusion
 
 The model will predict 79 samples correct.
 
@@ -68,7 +68,7 @@ People who felt that the seasonal vaccine was very effective received the vaccin
 Factors like Education level, employment status and race rarely affected the vaccination rate.
 
 
-Reccommendation
+**Reccommendation
 
 Vaccinate older people because they are willing.
 
